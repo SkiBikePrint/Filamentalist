@@ -1,4 +1,9 @@
-# Debugging Tips for Loose Filament During Rewinder Operation
+## Debugging Tips for Loose Filament During Rewinder Operation
+
+After a fast load movement, the spool may rotate a bit further due to inertia and causing some filament slack around the spool. This behavior is the same as any roller based spool holder and should not cause any issue for printing. 
+*In all other Filamentalist operations, there should be no slack forming for any standardly sized spool.*
+If you observe excessive slack, please read the troubleshooting information below.
+
 
 ### Issue: Slack Forming Around the Spool in the Rewind/Unload Direction
 
