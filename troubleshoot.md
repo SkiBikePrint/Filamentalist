@@ -14,7 +14,7 @@
 - **One-Way Bearing Disengagement:** The issue typically indicates that the one-way bearing is failing to switch to free-wheel mode.
   
   **Assembly Checks:**
-  - **Spacing and Alignment:** The one-way bearing should be tightly sandwiched between two spacers and large rollers, with a small allowable movement (about 0.1mm to 0.4mm) on the shaft.
+  - **Spacing and Alignment:** The one-way bearing should nott be tightly sandwiched between two spacers and large rollers. Instead, the spacers should have a small allowable movement (about 0.1mm to 0.4mm) on the shaft.
   
   **Friction Concerns:**
   - **Bearing Friction:** The friction of the one-way bearing should be less than that of the two 608 bearings on the large rollers. Check to ensure the 608 bearing does not spin excessively on the shaft. If it does:
