@@ -11,7 +11,7 @@ If you observe excessive slack, please read the troubleshooting information belo
 - **Tensioner Settings:** Ensure that the tensioner is not overly loose. It should maintain enough tension so that filament movements drives the rollers.
 - **One-way Bearing Direction** Check that the bearing is not installed in reverse.  
 - **Scratches:** Check for parts that might be causing scratches or binding to the rollers
-- **Spool Slippage:** If the problem occurs when the spool is nearly empty and the spool is slippin on the roller, make sure you have the rubber bands or another material with high enough friction on the large rollers. 
+- **Spool Slippage:** If the problem occurs when the spool is nearly empty and the spool is slipping on the roller, make sure you have the rubber bands or another material with high enough friction on the large rollers. 
 
 ### Issue: Slack Forming Around the Spool in the Print/Load Direction
 
@@ -19,7 +19,7 @@ If you observe excessive slack, please read the troubleshooting information belo
 - **One-Way Bearing Disengagement:** The issue typically indicates that the one-way bearing is failing to switch to free-wheel mode.
   
   **Assembly Checks:**
-  - **Spacing and Alignment:** The one-way bearing should nott be tightly sandwiched between two spacers and large rollers. Instead, the spacers should have a small allowable movement (about 0.1mm to 0.4mm) on the shaft.
+  - **Spacing and Alignment:** The one-way bearing should not be tightly sandwiched between two spacers and large rollers. Instead, the spacers should have a small allowable movement (about 0.1mm to 0.4mm) on the shaft.
   
   **Friction Concerns:**
   - **Bearing Friction:** The friction of the one-way bearing should be less than that of the two 608 bearings on the large rollers. Check to ensure the 608 bearing does not spin excessively on the shaft. If it does:
