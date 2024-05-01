@@ -155,6 +155,9 @@ The standard recommended method for tuning the system is with the Tensioner Arm 
 
 An alternate method is to rely on spool rim slip against the rollers by running a high filament clamping force and selecting a rim surface other than the high friction rubber bands such as a soft PVC tape (electrical or gym floor line tape).  You will have to experiment with what works best for you, particularly on almost empty spools of low weight, and/or reach out to the Filamentalist Discord group for input (https://discord.com/channels/1208529298781372447/1208529299230031883).
 
+# Troubleshoot
+
+Please see [troubleshooting guide](troubleshoot.md) or join our discord server above for more help.
 
 # Testing
 
