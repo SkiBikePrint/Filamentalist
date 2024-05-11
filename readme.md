@@ -108,6 +108,11 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
    - 2.3 Place a 3x18 FHCS (or x16, x12) through the hole in the Tensioner Arm Left part at the "nose" end and moderately tighten the screw into the Tensioner Arm right piece.  
    - 2.4 Install the Tensioner Arm onto the Tensioner Mnt using a 3x18mm FHCS screw (or x16) .  Tighten until snug and then back off until the arm rotates freely on the mount.
    - 2.5 Place an M3 washer followed by the spring onto an M3x35 SHCS (or x30, x40) and slide through the slotted hole in the bottom of the arm assembly.  Screw the SHCS into the heatset insert of the Tensioner Mnt.  No tension should be on the spring at this point.
+       - 2.5.1 ALTERNATE INSTALLATION:
+                If the orientation of your Filamentalist makes it difficult to access the tension adjustment screw you can use a 50mm long 3mm SHCS coming from the bowden side of the rewinder with a lock nut, nut with loctite, or a heatset with loctite on the other end as shown in the image below.  
+<p align="center">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/a2b556a6cd13a9c8438ebea5d4e3340720e51efe/Images/Tensioner%20Screw%20(alternate).jpg" width="400" height="350">
+</p>
 
 # 3. Drive Roller Assembly
 
