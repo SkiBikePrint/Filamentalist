@@ -135,7 +135,7 @@ The purpose of this two-piece roller is to allow for future o-ring replacement b
 
 There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version (see "Clip Mount Base Version" folder under STL's directory.  Assembly is the same.
 
-Also, there is an optional "Base" part that mounts to the Supports and Tensioner Mount for a standalone application where the unit will not be attached to some other mounting suface.
+Also, there is an optional "Base" part that mounts to the Supports and Tensioner Mount for a standalone application where the unit will not be attached to some other mounting suface.  If installing the Base part, screw the Tensioner Mount to the Base before installing the side Support parts, Drive Roller Assembly, and/or Idler Roller.
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/a88c2c8f885684abdce5d5ff6f18d316faf91c62/Filamentalist/Images/Base.jpg" width="250" height="250">
 
