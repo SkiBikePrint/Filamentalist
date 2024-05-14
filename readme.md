@@ -35,7 +35,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 
 | Qty per Site | Part | Example Source Reference | Comments |
 |-------|---------------------------|-----------------------------|-------------------------------|
-|   1   | 8mm dia. x 80mm Stainless Steel Dowell Pin | https://www.amazon.com/uxcell-Stainless-Chamfered-Support-Elements/dp/B0BC8VFSWD, Amazon Alternate https://www.amazon.com/Unifizz-Stainless-Steel-Round-Silver/dp/B09P9MC953?th=1 (sheared ends may need to be cleaned up), Aliexpress https://www.aliexpress.us/item/3256801518620991.html | 100mm is more available and can extend out of rewinder or cut any polished 8mm or 5/16" diameter stainless rod to 80mm lengths |
+|   1   | 8mm dia. x 80mm Stainless Steel Dowell Pin | https://www.amazon.com/uxcell-Stainless-Chamfered-Support-Elements/dp/B0BC8VFSWD, Amazon Alternate https://www.amazon.com/Unifizz-Stainless-Steel-Round-Silver/dp/B09P9MC953?th=1 (sheared ends may need to be cleaned up), Aliexpress https://www.aliexpress.us/item/3256801518620991.html | Undersized shaft (7.93-7.97mm dia) works the best (5/16" dia).  100mm length is more available and can extend out of rewinder or cut polished 8mm or 5/16" diameter stainless rod to 80mm lengths |
 |   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  | MR608RS, MR608ZZ, etc. |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS, Aliexpress | 8mm Bore, 12mm length, 14.2mm Diameter. |
 |   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | A locking clip is required and can be bought or printed (stl included) |
