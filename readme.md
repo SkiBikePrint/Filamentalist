@@ -231,3 +231,9 @@ V2.1
 - Added material around ECAS on Tensioner Mnt to reduce potential for cracking
 - Revised Tensioner ARM Left/Right to create clearance for wider Tensioner Mnt
 - Added Test Block.stl to check printing tolerances for 608 Bearing, 8mm Axle, and ECAS press fits as well as holes for 3mm screw thread cutting and 2.3mm filament hole.
+
+# To DO
+
+1. Add in reference and instructions for the parametric model.
+2. Include instructions for the alternate tensioner screw mounting direction.
+3. Add cal tool into STL's and instructions up front for checking fit.
