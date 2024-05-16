@@ -83,6 +83,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 | 1       | Idler Roller (female)   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Idler%20Roller%20(female).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
 | 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertical | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple rewinders. |
 | 2 | ECAS Locking Clip | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6837e24c214d6256fef5f5dbc52ac9dc8a1a9989/Filamentalist/Images/ECAS%20Locking%20Clip.jpg" width="40" height="40"> |  Horizontal | N | Tab up |
+| 1 | Test Block | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/dac1be98bd8ef3632d9162f048f20ea1d720f740/Images/Test%20Block.jpg" width="40" height="40"> |  608 Pocket facing up | N | printer calibration tool |
 
 
 There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It is highly recommended and enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version (see "Clip Mount Base Version" folder under STL's directory).  Assembly is the same.
