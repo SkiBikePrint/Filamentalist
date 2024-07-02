@@ -1,4 +1,4 @@
-# The "Filamentalist" is now part of the Voron ERCF V2 "ecosystem" and can be found [here](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/321672f1efa1071ef7538221f60329bc8fcc56e8/Recommended_Options/Filamentalist_Rewinder)
+# The "Filamentalist" is now part of the Voron ERCF V2 "ecosystem" and can be found [here](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/rc2/Recommended_Options/Filamentalist_Rewinder)
 
 <h1 align="center">The "Filamentalist"</h1>
 
