@@ -1,32 +1,30 @@
-https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8
-
 <h1 align="center">The "Filamentalist"   <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="150" height="150">   Passive Filament Driven Rewinder</h1>
 <p align="center">
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_render.png" width="350" height="475">
 </p>
 <p align="center"><img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Front.jpg" width="350" height="300">
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Top.jpg" width="300" height="300">
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Top.jpg" width="300" height="300">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Top.jpg" width="300" height="300">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Top.jpg" width="300" height="300">
 </p>
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_6_Color.jpg" width="350" height="300">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_6_Color.jpg" width="350" height="300">
 </p>
 
 # [Filamentalist Enclosure Drybox Project Github](https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist_Enclosure)
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/67669aab526feb875ccaa2883de688c38a736372/Recommended_Options/Filamentalist_Rewinder/Assets/20240619_221414.jpg" width="350" height="300">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/20240619_221414.jpg" width="350" height="300">
 </p>
 
 
 # See video of 6 rewinders swapping here (plus Trident Blobifier):  [Filamentalist X6](https://photos.app.goo.gl/hKso7JYPZcdRLKrW8)
 
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Theory of operation:
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Theory of operation:
 The Filamentalist uses the axial force delivered by the MMU gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch disengages allowing for effective free-spooling of the filament spool similar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface of the rewinder to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
 
 <p align="center">
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist6_1.jpg" width="400" height="465">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist6_1.jpg" width="400" height="465">
 </p>
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Credits:
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Credits:
 Discord user Thisiscam first made me aware of Muzi Xiaoyang's video of a filament driven rewinder (https://www.bilibili.com/video/BV1ZM41197fX/?spm_id_from=333.337.search-card.all.click).  Through a long collaboration with Thisiscam, a great Beta dev/test team, and many design iterations/improvements on the Muzi Xiaoyang design the Filamentalist was born. 
 
 ## <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> **Additional Notes/Considerations** 
