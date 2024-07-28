@@ -10,6 +10,9 @@
 
 [5. Stronger gear motor and 40 tooth mod](#gear-motor-options)
 
+[6. Rubber Band Sourcing Options](#rubber-band-sourcing-options)
+
+
 ## Troubleshooting
 - If you have built the Filamentalist(s) and are having issues with its functioning such as loose loops or gear motor stalling please refer to this [Trouble Shooting Guide](https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/troubleshoot.md).  If this doesn't help to resolve your questions you can get help from the many great users at the Filamentalist Discord server here (https://discord.gg/uDcGxukRKd)
 
@@ -77,5 +80,20 @@
 
 1. 17HE19-2004S from stepperonline.com - 55Ncm (they have a new 17HS19-2004S1 50Ncm version that should be similar to the 17HE19-2004S but a little more powerful)
 2. LDO-42STH48-2504AC - 55Ncm
+
+[return to index](#filamentalist-frequently-asked-questions)
+
+## Rubber Band Sourcing Options
+
+### Bike Tire Inner Tube
+- My favorite solution as you can cut to get a perfect fit across the face of the Rim Roller for 80mm, 100mm, or custom width rewinders.  Mountain bike or "balloon" tire sized tubes for tires in the 1.75"-2.5" width work well.  Select a wheel diameter of at least 16" to have enough material for up to 12 100mm wide rewinders.  Cut at ~30-35% wider than face of Rim Roller to account for width reduction when stretched onto roller.
+  - easy to source locally (your garage, bike shop, hardware store,...)
+  - Amazon example: https://www.amazon.com/Schwinn-27-5X-1-95-2-125-Sealing/dp/B094L91SS6
+  - Aliexpress example: https://www.aliexpress.us/item/3256804654544066.html
+### Rubber Bands
+  - Size #82 (2 1/2" length x 1/2" wide) or 50mm diameter (~80mm length) x 10mm width
+    - qty 2 per roller for 80mm width version, qty 3 per roller for 100mm width version
+  - Amazon example: https://www.amazon.com/AIWOQI-Industrial-supplies-Survival-Tactical/dp/B0CZQ57TF6
+  - Aliexpress example: https://www.aliexpress.us/item/3256803949130763.html
 
 [return to index](#filamentalist-frequently-asked-questions)
