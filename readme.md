@@ -56,7 +56,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 |   2   | M3x8 SHCS  |  Stainless Steel Socket Head Screw | for locking rim rollers to 8mm steel axle shaft|
 |   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation 8/10/12mm lengths will work|
 |   3   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation 16mm length will work |
-|   2   | Rubber Band | https://www.amazon.com/dp/B0CPJPN41V , Aliexpress https://www.aliexpress.us/item/3256804772787208.html (120x20mm) | Size #94 (3 1/2" x 3/4"), any wide rubber bands in the 2.5"-3.5" size will work.  Can combine multiples across face of rollers.  Another excellent alternative is to cut bands from a bicycle inner tube.  Mountain bike or "balloon" tire sized tubes for tires in the 1.75"-2.4" width work well.  Cut at ~30-35% wider than face of Rim Roller. |
+|   2   | Rubber Band | See [FAQ](Filamentalist_FAQ.md) |  |
 | var.  | 2.5mm ID PTFE tubing | Amazon, Aliexpress, 3D printing vendors | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your rewinder location to your ERCF inputs |
 
 
