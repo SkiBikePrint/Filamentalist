@@ -27,20 +27,20 @@ The Filamentalist uses the axial force delivered by the MMU gear motor along the
 # <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Credits:
 Discord user Thisiscam first made me aware of Muzi Xiaoyang's video of a filament driven rewinder (https://www.bilibili.com/video/BV1ZM41197fX/?spm_id_from=333.337.search-card.all.click).  Through a long collaboration with Thisiscam, a great Beta dev/test team, and many design iterations/improvements on the Muzi Xiaoyang design the Filamentalist was born. 
 
-## <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> **Additional Notes/Considerations** 
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> **Additional Notes/Considerations** 
 
 This rewinder is "almost" perfect, but not completely perfect.  Things that you need to know include:
 1. The ERCF gear stepper is doing the heavy lifting.  Configure your gear stepper to run in sync mode with your extruder via Happy Hare settings.
 2. A high torque NEMA 17 motor is recommended.  Many in the Beta team ran NEMA 17's spec'd at 55 N-cm max torque and config'd them for 1-1.4A.  Grafton's 40 tooth NEMA 17 mod is recommended (https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction).  This may not be required so if you already have built your ERCF, try the Filamentalist with the motor you have and decide if you think you need more torque.
-3. Several in the Beta team had space constraints that they wanted the rewinder to honor.  As a result, one baseline width of the Filamentalist was set to use a 80mm axle length.  It has a maximum spool width of 68mm and supports most standard 1, 0.5, and 0.25KG spool sizes and still be able to fit 6 rewinders across a 350 size Voron printer. Height was set to be as low as possible to fit some existing dry box designs although there is the possibility to make user modifications to to reduce height further if needed. Some spools such as KVP's are too wide to fit the 80mm design.  If you use spools wider than 68mm there is also stl files posted for a 100mm axle length version. If you are using Autodesk Fusion 360 the provided .f3d file in the CAD directory is a parametric based model allowing you to customize the width of your rewinder to suit your max/min spool widths and/or to design around a standard available steel axle length (see instructions here  [parametric_model](https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/CAD/readme.md) ). 
+3. Several in the Beta team had space constraints that they wanted the rewinder to honor.  As a result, one baseline width of the Filamentalist was set to use a 80mm axle length.  It has a maximum spool width of 68mm and supports most standard 1, 0.5, and 0.25KG spool sizes and still be able to fit 6 rewinders across a 350 size Voron printer. Height was set to be as low as possible to fit some existing dry box designs although there is the possibility to make user modifications to to reduce height further if needed. Some spools such as KVP's are too wide to fit the 80mm design.  If you use spools wider than 68mm there is also stl files posted for a 100mm axle length version. If you are using Autodesk Fusion 360 the provided .f3d file in the CAD directory is a parametric based model allowing you to customize the width of your rewinder to suit your max/min spool widths and/or to design around a standard available steel axle length (see instructions here  [parametric_model](https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/CAD/readme.md) ). 
 4. Because the standard tuning of this design relies on some filament slip at the o-rings, the o-rings may ultimately wear-out.  Testing and extrapolation estimates that the wear-out point is ~5K cycles. See the O-Ring Replacement section at the end of this document for o-ring swap/replacement instructions. 
 5. Due to pressfits for the 608 bearings, 8mm axle, and ECAS, printer calibration is important.  A "Test Block" stl is included.  It is recommended you print this first and test the press fits and measure the two small holes (2.7mm for cutting 3mm screw threads and 2.3mm for the filament path) to determine if you need to apply any scaling or changes to your extrusion factors in your slicer before printing.  Due to varying ECAS supplier tolerances and varying printer tolerances some experienced cracking at the ECAS hole when pressing in the ECAS.  If all other press fits work well on the Test Block but you experience cracking at the ECAS hole when pressing in an ECAS fitting, you can use an Xacto knife to lightly remove some plastic from the ECAS hole.  If the ECAS is too loose you can use superglue to glue the ECAS into the Tensioner Mount (not the Test Block 😉 ).
 6. Questions or input?
-   - Refer to the FAQ (https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Filamentalist_FAQ.md)
-   - Troubleshooting Guide (https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/troubleshoot.md)
+   - Refer to the FAQ (https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Filamentalist_FAQ.md)
+   - Troubleshooting Guide (https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/troubleshoot.md)
    - Filamentalist Discord group here:  (https://discord.gg/uDcGxukRKd)
 
-## <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> **BOM:**
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> **BOM:**
 (please read comments in the right column)
 
 | Qty per Site | Part | Example Source Reference | Comments |
@@ -60,7 +60,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 | var.  | 2.5mm ID PTFE tubing | Amazon, Aliexpress, 3D printing vendors | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your rewinder location to your ERCF inputs |
 
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Printing Guidelines:
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Printing Guidelines:
 
 ## **General:**
 - Material: ABS or ASA (~170 gm per site)
@@ -82,36 +82,36 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
   <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/ba96384b23351f8518af1fe28bfbe48044499fa8/Recommended_Options/Filamentalist_Rewinder/Assets/Clip-In_Supports.jpg" width="250" height="175">
 - **!! IMPORTANT !!  This design relies on multiple press-fits for bearings, axles, and ECAS fittings.  As a result, printer calibration is important.  A Test_Block stl is included.  It is highly recommended that you print this block first, check fits, and make adjustments to extrusion multipliers and/or slicer scaling if needed before printing the Filamentalist parts.**
   
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Logo.png" width="200" height="300">  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Sliced_(Black)_1.jpg" width="375" height="300">  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Sliced_(Orange)_1.jpg" width="375" height="300">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Logo.png" width="200" height="300">  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Sliced_(Black)_1.jpg" width="375" height="300">  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Sliced_(Orange)_1.jpg" width="375" height="300">
 
 
 | **Qty per Site** | **Part**  | **Pic** |  **Orientation**            | **Printed Supports Needed** | **Comments** |
 |------|-----------------------------------------|------------|--------------------|-----|---------------------------------|
-| 1       | Right_Support | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Right_Support.jpg" width="40" height="40"> |  Horizontal                   | N     |                                  |
-| 1       | Left_Support | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Left_Support.jpg" width="40" height="40">                                                            | Horizontal                   | N     |                                  |
+| 1       | Right_Support | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Right_Support.jpg" width="40" height="40"> |  Horizontal                   | N     |                                  |
+| 1       | Left_Support | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Left_Support.jpg" width="40" height="40">                                                            | Horizontal                   | N     |                                  |
 | 1       | Option: Right_Support_[2020_Clip-In_option] | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/ac5dc770fc719fbddc8d7d1fcfac345636657814/Recommended_Options/Filamentalist_Rewinder/Assets/Right_Support(2020-Clip-In).jpg" width="50" height="30"> |  Horizontal                   | N     |                                  |
 | 1       | Option: Left_Support_[2020_Clip-In_option] | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/ac5dc770fc719fbddc8d7d1fcfac345636657814/Recommended_Options/Filamentalist_Rewinder/Assets/Left_Support(2020_Clip-in).jpg" width="50" height="30">                                                            | Horizontal                   | N     |                                  |
-| 1       | Base_Plate_80mm/100mm_[option] | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Base.jpg" width="40" height="40">                                                            | Horizontal                   | N     | Optional part for a standalone unit not mounted to another surface  |
-| 1       | Idler_Roller_Axle_80mm/100mm  | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Rear_Roller_Axle.jpg" width="40" height="40"> | Horizontal | N | align flat of "D" to build plate |
-| 2       | Rim_Roller_80mm/100mm | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Rim_Roller.jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up.   |
-| 1       | Center_Drive_Roller  | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Center_Drive_Roller.jpg" width="40" height="40">                                                        | Horizontal                 | N        | Recommend scattered seams for press fit-bore concentricity |
-| 2       | CDR_Spacer_80mm/100mm |  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Center_Drive_Roller_Spacer.jpg" width="40" height="40">    | Horizontal                 | N        |                             |
-| 1       | Tensioner_Arm_Left |  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Tensioner_Arm_Left_1.jpg" width="40" height="40"> | Horizontal                          |  N    |  |
-| 1       | Tensioner_Arm_Right |  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Tensioner_Arm_Right_1.jpg" width="40" height="40"> | Horizontal                          |  Built-in     | Remove built-in support from the locking tab |
-| 1       | Tensioner_Mount_80mm/100mm | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Tensioner_Mnt_printed.jpg" width="40" height="40">                           | Vertical (as installed)                | N  |   |
+| 1       | Base_Plate_80mm/100mm_[option] | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Base.jpg" width="40" height="40">                                                            | Horizontal                   | N     | Optional part for a standalone unit not mounted to another surface  |
+| 1       | Idler_Roller_Axle_80mm/100mm  | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Rear_Roller_Axle.jpg" width="40" height="40"> | Horizontal | N | align flat of "D" to build plate |
+| 2       | Rim_Roller_80mm/100mm | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Rim_Roller.jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up.   |
+| 1       | Center_Drive_Roller  | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Center_Drive_Roller.jpg" width="40" height="40">                                                        | Horizontal                 | N        | Recommend scattered seams for press fit-bore concentricity |
+| 2       | CDR_Spacer_80mm/100mm |  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Center_Drive_Roller_Spacer.jpg" width="40" height="40">    | Horizontal                 | N        |                             |
+| 1       | Tensioner_Arm_Left |  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Tensioner_Arm_Left_1.jpg" width="40" height="40"> | Horizontal                          |  N    |  |
+| 1       | Tensioner_Arm_Right |  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Tensioner_Arm_Right_1.jpg" width="40" height="40"> | Horizontal                          |  Built-in     | Remove built-in support from the locking tab |
+| 1       | Tensioner_Mount_80mm/100mm | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Tensioner_Mnt_printed.jpg" width="40" height="40">                           | Vertical (as installed)                | N  |   |
 | 1       | Tensioner_Mount_Rear_Load_80mm/100mm_[option] | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/f2f9d9bb04fad333333788b4d2238f26b38bbf62/Recommended_Options/Filamentalist_Rewinder/Assets/Tensioner_Mount_Rear_Load.jpg" width="60" height="30">                           | Vertical (as installed).  Optional for rear loading if needed.               | N  |   |
-| 1       | Idler_Roller_(male)_80mm/100mm   | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Idler_Roller_(male).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
-| 1       | Idler_Roller_(female)_80mm/100mm   | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Idler_Roller_(female).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
-| 1    | Axle_Depth_Tool_80mm/100mm | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Axle_Pressing_Tool.jpg" width="40" height="40"> | Vertical | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple rewinders. |
-| 2 | ECAS_Clip | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/ECAS_Locking_Clip.jpg" width="40" height="40"> |  Horizontal | N | Tab up |
-| 1 | Test_Block | <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Test_Block.jpg" width="40" height="40"> |  608 Pocket facing up | N | printer calibration tool |
+| 1       | Idler_Roller_(male)_80mm/100mm   | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Idler_Roller_(male).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
+| 1       | Idler_Roller_(female)_80mm/100mm   | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Idler_Roller_(female).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
+| 1    | Axle_Depth_Tool_80mm/100mm | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Axle_Pressing_Tool.jpg" width="40" height="40"> | Vertical | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple rewinders. |
+| 2 | ECAS_Clip | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/ECAS_Locking_Clip.jpg" width="40" height="40"> |  Horizontal | N | Tab up |
+| 1 | Test_Block | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Test_Block.jpg" width="40" height="40"> |  608 Pocket facing up | N | printer calibration tool |
 
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Assembly Instructions:
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Assembly Instructions:
 
 # 1. Tensioner Mount Assembly
 
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Tensioner_Mnt.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Tensioner_Mnt.jpg" width="400" height="350">
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
    - 1.2 Remove the rubber seal from the ECAS fitting.
@@ -119,7 +119,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 
 # 2. Tensioner Arm Installation
 
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Tensioner_Assy.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Tensioner_Assy.jpg" width="400" height="350">
 
    - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into the 608 bearing and rotate against the Tensioner Arm Right part making sure the alignment tab seats correctly at into the pocket at the bottom of the Tensioner Arm Right part.
    - 2.2 Place a 3x18 FHCS (or x16, x12) through the bearing mount hole of the Tensioner Arm Left part and moderately tighten the screw into the Tensioner Arm right piece.  Once installed verify that the bearing turns freely.
@@ -132,7 +132,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 
 # 3. Drive Roller Assembly
 
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Center_Drive_Roller_with_1-Way_Bearing.jpg" width="250" height="250">  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/0148b717b17bc58e67fd7820ecf67a823742677a/Recommended_Options/Filamentalist_Rewinder/Assets/Drive_Roller_Assembly_1.jpg" width="750" height="400">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Center_Drive_Roller_with_1-Way_Bearing.jpg" width="250" height="250">  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/0148b717b17bc58e67fd7820ecf67a823742677a/Recommended_Options/Filamentalist_Rewinder/Assets/Drive_Roller_Assembly_1.jpg" width="750" height="400">
 
 - 3.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
 - 3.2 Before placing the Rim Rollers onto the axle use a ball end hex driver to drive the M3x8mm SHCS through the hole in each hub of the Rim Rollers to cut threads into the plastic.  Back the screws out a little to allow the axle to be inserted into the Rim Roller.
@@ -147,9 +147,9 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 Also, there is an optional "Base_Plate" part that mounts to the Supports and Tensioner Mount for a standalone application where the unit will not be attached to some other mounting suface.  If installing the Base_Plate part, screw the Tensioner Mount to the Base from the bottom before installing the side Support parts, Drive Roller Assembly, and/or Idler Roller.
 
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Base.jpg" width="250" height="250">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Base.jpg" width="250" height="250">
 
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Base_MR608_Bearings.jpg" width="300" height="350">  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Rear_Roller_MR608_Bearings.jpg" width="300" height="250">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Base_MR608_Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Rear_Roller_MR608_Bearings.jpg" width="300" height="250">
 
    - 4.1 Thread the Idler Roller (male) and Idler Roller (female) parts together tightly.  Press a total of (4) MR608 bearings into the Right Support, Left Support, and Idler Roller parts.  The Axle Depth Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Idler Roller.  Ensure the inner races of the bearings in the Right/Left Support parts turn freely.
 
@@ -164,21 +164,21 @@ Also, there is an optional "Base_Plate" part that mounts to the Supports and Ten
 ## **It is recommended that you chamfer the inner edge of the tubing that is going into the Tensioner Mount with an Xacto knife or drill bit to ensure easy filament loading.  Also, depending on print quality you may want/need to clean up the filament path hole in the Tensioner Mount by hand turning a 1.75-2mm drill bit and the bowden tubing hole with a 4mm drill bit.**
 
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Tuning
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Tuning
 
 The standard recommended method for tuning the system is with the Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs rewinder drag and set a slip range in-between the two "imaginary" lines.  Adjust the spring tensioner screw accordingly and err on the light side.  Run the rewinder (see test code below). If loose filament is forming around the filament spool during unload, tighten the spring tensioning screw.  If no loose filament is forming around the filament roll, gradually reduce the spring tension until loose filament starts to accumulate and then increase tension in ~1/2 screw turn increments until you feel you have the lightest tension that results in a tightly packed unload. 
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> O-Ring Replacement
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> O-Ring Replacement
 
 You may never need to replace o-rings.  Testing and extrapolation estimates that the wear-out point is ~5K cycles.  The impact of o-ring wear-out can be reduced by periodically swapping highly used rewinders with low use rewinders in your line-up.  Also, o-rings with grooves worn in them can be swapped with their opposing partners to present the unworn side/face to the filament to extend the life of a set.  For o-ring replacement, remove the Drive Roller Assembly from the rewinder (unscrew the (6) screws of the Right and Left Supports).  Then unscrew the set screw on one Rim Roller.  You can now slide the CDR Spacer and Center Drive Roller from the axle, remove the old o-rings (a dental pic works great), and install a pair of new ones.  Reinstall the Center Drive Roller and CDR Spacer back on the axle and install the Rim Roller back onto the axle per 3.3 above, and re-install the supports.  
 
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Troubleshooting
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Troubleshooting
 
 Please see [troubleshooting guide](troubleshoot.md), reference the [FAQ](Filamentalist_FAQ.md), or join our discord server (https://discord.gg/uDcGxukRKd) for more help.
 
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Testing
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Testing
 
 Below are macros you can cut and paste into the bottom of your mmu_software.cfg or printer.cfg to test and tune your rewinders.
 
@@ -231,7 +231,7 @@ gcode:
     {% endfor %}
 ```
 
-# <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Version History
+# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Version History
 
 Versioning convention.  V"X"."Y"
 - "X" represents a major change in form, fit, or function.  An increment in "X" may not require that existing built units undergo rework but the new parts will generally not be compatible with past version rewinders.
