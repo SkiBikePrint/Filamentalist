@@ -4,10 +4,10 @@ If you are using Autodesk Fusion 360 the .f3d file here is a parametric based mo
 
 To customize your Filamentalist width and axle sizing load the model, make sure you are in the "Solid" menu, and then select "Modify" and "Change Parameters"
 
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/59477f6be6503ead838a32d120ce2c97c91f062b/Recommended_Options/Filamentalist_Rewinder/Assets/Change_Parameters.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Change_Parameters.jpg" width="400" height="350">
 
 
-<img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/59477f6be6503ead838a32d120ce2c97c91f062b/Recommended_Options/Filamentalist_Rewinder/Assets/parameters.jpg" width="900" height="350">
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/parameters.jpg" width="900" height="350">
 
 Adjust the following parameters to meet your needs:
 
