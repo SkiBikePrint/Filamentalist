@@ -11,7 +11,7 @@
 [5. Stronger gear motor and 40 tooth mod](#gear-motor-options)
 
 ## Troubleshooting
-- If you have built the Filamentalist(s) and are having issues with its functioning such as loose loops or gear motor stalling please refer to this [Trouble Shooting Guide](https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/Filamentalist_Rewinder/troubleshoot.md).  If this doesn't help to resolve your questions you can get help from the many great users at the Filamentalist Discord server here (https://discord.gg/uDcGxukRKd)
+- If you have built the Filamentalist(s) and are having issues with its functioning such as loose loops or gear motor stalling please refer to this [Trouble Shooting Guide](https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/troubleshoot.md).  If this doesn't help to resolve your questions you can get help from the many great users at the Filamentalist Discord server here (https://discord.gg/uDcGxukRKd)
 
 ## Dimensions Footprint
 - Length:  186mm
@@ -33,14 +33,14 @@
   - End Arm Cap Mount Extension:  https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/rc2/Recommended_Options/ERCT_Buffer/Support_Arm/End_Arm_Cap_Mount_Extention.stl
   - Electronics Box will Mount to This:  https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/rc2/Stls/Electronics/Universal_Box
   
-  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/6c7f8dd72794a8ecd0c1e0981dfac9007970ab2d/Recommended_Options/Filamentalist_Rewinder/Assets/CottonTail%20Lite%20Pre-Gate%20Sensors.jpg" width="500" height="350">
+  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/CottonTail%20Lite%20Pre-Gate%20Sensors.jpg" width="500" height="350">
 
   ### CheeseFrog's
   https://github.com/juliusjj25/ERCF-Pregate-Sensors
 
   This is what SkiBikePrint uses (SkiBikeMake on Discord).  It is simple and works great.  It requires the "bumped" lever style Omron D2F microswitches.  Great for a new build.  Retrofitting this onto an existing ERCF requires a tear down of the unit to replace the filament path portion of the blocks as well as the latches.  I did it the brute force way and trimmed my existing latches back with clippers and "muscled" the filament path parts out and back in to the blocks.  The brute force approach may not be for everyone!
   
-  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/d43d10075f9a9581f6db1cd0bece84393a75faaf/Recommended_Options/Filamentalist_Rewinder/Assets/CheeseFrog%20Sensors.jpg" width="500" height="350">
+  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/CheeseFrog%20Sensors.jpg" width="500" height="350">
 
   ### Gneu's Filament Block 
   https://github.com/gneu42/Triple-Decky/tree/main/STL/ERCF-V2/Rev_C/Rev_C9/Optional%20Pre-gate%20Sensor%20(Experimental)
@@ -61,7 +61,7 @@
 
   Box is available here:  https://www.printables.com/model/551828-unoriginal-prusa-drybox .  Delete the rollers and add your own Filamentalist mounting solution.  You may need the rear load option for the Filamentalist
 
-  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/26b48491a1fce7cc9411857c30e11546146ed1a2/Recommended_Options/Filamentalist_Rewinder/Assets/UnOriginal%20Prusa%20DryBox.jpg" width="300" height="350">
+  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/UnOriginal%20Prusa%20DryBox.jpg" width="300" height="350">
   (solution/picture courtesy of barsam on Discord)
 
   
