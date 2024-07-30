@@ -4,8 +4,6 @@
 </p>
 <p align="center"><img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Front.jpg" width="350" height="300">
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Top.jpg" width="300" height="300">
-<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Top.jpg" width="300" height="300">
-</p>
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_6_Color.jpg" width="350" height="300">
 </p>
 
@@ -14,7 +12,7 @@
 </p>
 
 
-# See video of 6 rewinders swapping here (plus Trident Blobifier):  [Filamentalist X6](https://photos.app.goo.gl/hKso7JYPZcdRLKrW8)
+# See video of 6 rewinders swapping here (plus Trident Blobifier):  [<img src="https://github.com/SkiBikePrint/Filamentalist/blob/7042b9b10466e7a60b45ed23568b3a78ff5930b9/Assets/Swap_Video.jpg" width="100" height="100">](https://photos.app.goo.gl/hKso7JYPZcdRLKrW8)
 
 
 # <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Theory of operation:
