@@ -86,14 +86,19 @@
 ## Rubber Band Sourcing Options
 
 ### Bike Tire Inner Tube
-- My favorite solution as you can cut to get a perfect fit across the face of the Rim Roller for 80mm, 100mm, or custom width rewinders.  Mountain bike or "balloon" tire sized tubes for tires in the 1.75"-2.5" width work well.  Select a wheel diameter of at least 16" to have enough material for up to 12 100mm wide rewinders.  Cut at ~30-35% wider than face of Rim Roller to account for width reduction when stretched onto roller.
+- You can cut to get a perfect fit across the face of the Rim Roller for 80mm, 100mm, or custom width rewinders with this solution.  Mountain bike or "balloon" tire sized tubes for tires in the 1.75"-2.5" width work well.  Select a wheel diameter of at least 16" to have enough material for up to 12 100mm wide rewinders.  Cut at ~30-35% wider than face of Rim Roller to account for width reduction when stretched onto roller.
   - easy to source locally (your garage, bike shop, hardware store,...)
   - Amazon example: https://www.amazon.com/Schwinn-27-5X-1-95-2-125-Sealing/dp/B094L91SS6
   - Aliexpress example: https://www.aliexpress.us/item/3256804654544066.html
+ 
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/71cee20fe18fa942feb86cab2a580b9eeac974d1/Assets/inner_tube.jpg" width="500" height="350">
+
 ### Rubber Bands
   - Size #82 (2 1/2" length x 1/2" wide) or 50mm diameter (~80mm length) x 10mm width
     - qty 2 per roller for 80mm width version, qty 3 per roller for 100mm width version
   - Amazon example: https://www.amazon.com/AIWOQI-Industrial-supplies-Survival-Tactical/dp/B0CZQ57TF6
   - Aliexpress example: https://www.aliexpress.us/item/3256803949130763.html
+ 
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/71cee20fe18fa942feb86cab2a580b9eeac974d1/Assets/rubber_band_82.jpg" width="300" height="350">
 
 [return to index](#filamentalist-frequently-asked-questions)
