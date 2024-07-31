@@ -24,9 +24,10 @@ If you observe excessive slack, please read the troubleshooting information belo
   **Friction Concerns:**
 
 **Quality Variations in Components:**
-- **One-Way Bearing and Shaft Compatibility:** Verify that the one-way bearing rotates freely on the shaft. Measure the diameter of the shaft; successful setups typically report diameters between 7.92mm to 7.96mm (or 5/16" nominal). If your measurements are close to or exceed 8mm, the shaft may be too large for the bearing.
+- **One-Way Bearing and Shaft Compatibility:** Verify that the one-way bearing rotates freely on the shaft. If one-way bearing feel tight/draggy when rotated on the shaft in the unloacked direction measure the diameter of the shaft; successful setups typically report diameters between 7.92mm to 7.96mm (or 5/16" nominal). If your measurements are close to, or exceed 8mm, the shaft may be too large for the bearing.
   - **Adjustment:** Consider lightly lathing/sanding the shaft's center section to to reduce the diameter.
   - **5/16" Diameter Axles:**" Purchasing 5/16" diameter shaft or stainless steel tubing has also produced good results
+  - **Lubrication:** Use a light lubricant (lithium grease, silicone) on the center portion of the shaft where the one-way bearing will sit
 
   - **Bearing Friction:** The friction of the one-way bearing should be less than that of the four 608 bearings on the Rim and Idler Rollers. Although it is rare that this will be the case, if you suspect that more 608 bearing resistance is required then:
     - **Idler Roller Bearing Lateral Loading:** Resistance can be increased on the rear Idler Roller by "side-loading" the 608 bearings.  This can be accomplished by increasing the tension on the Rear Roller axle screws.  It may be necessary to slightly shorten the Idler Axle by sanding the end(s) down a small amount (~0.2mm) and then tightening the axle screws until an increase in resistance is noted.
