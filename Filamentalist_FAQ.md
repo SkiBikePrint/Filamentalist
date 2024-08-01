@@ -22,9 +22,10 @@
   - Length with 200mm Diameter Spool:  202mm
 - Height:  76mm without optional Base Plate, 79mm with Base Plate
   - Height with 200mm Diameter Spool:  252mm without optional Base Plate, 255 with Base Plate (varies slightly with Rim Roller rubber band thickness)
-- Width:  80mm Axle Version = 81.5mm, 100 mm Axle Version = 100mm
-  
-[return to index](#filamentalist-frequently-asked-questions)
+- Width:  80mm Axle Version = 81.5mm, 100 mm Axle Version = 100mm<br />
+  <br />
+    
+  [return to index](#filamentalist-frequently-asked-questions)
 
 ## Enclosure Solutions
 
@@ -39,8 +40,8 @@
   Box is available here:  https://www.printables.com/model/551828-unoriginal-prusa-drybox .  Delete the rollers and add your own Filamentalist mounting solution.  You may need the rear load option for the Filamentalist
 
   <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/UnOriginal%20Prusa%20DryBox.jpg" width="300" height="350">
-  (solution/picture courtesy of barsam on Discord)  
-    
+  (solution/picture courtesy of barsam on Discord)<br />
+  <br />
     
   [return to index](#filamentalist-frequently-asked-questions)
 
@@ -54,10 +55,10 @@
   If you are buying a new NEMA 17, below are verified high torque motors (55-59Ncm) that perform well in the needed RPM range for 200-500mm/s load/unload speeds.  There is really no need to go higher than the 55-59Ncm torque range as you will just start grinding grooves in your filament with the MMU gear.  There is likely several other stepper motor options that have similar specifications.
 
 1. 17HE19-2004S from stepperonline.com - 55Ncm (they have a new 17HS19-2004S1 50Ncm version that should be similar to the 17HE19-2004S but a little more powerful)
-2. LDO-42STH48-2504AC - 55Ncm
-
-
-[return to index](#filamentalist-frequently-asked-questions)
+2. LDO-42STH48-2504AC - 55Ncm<br />
+  <br />
+    
+  [return to index](#filamentalist-frequently-asked-questions)
 
 
 ## Pregate Sensor Solutions
@@ -83,10 +84,10 @@
   ### Gneu42's Filament Block 
   https://github.com/gneu42/Triple-Decky/tree/main/STL/ERCF-V2/Rev_C/Rev_C9/Optional%20Pre-gate%20Sensor%20(Experimental)
 
-  Similar to the CheeseFrog solution but more complex.  Also requires a teardown/rebuild if added to an existing ERCF.
-
-  
-[return to index](#filamentalist-frequently-asked-questions)
+  Similar to the CheeseFrog solution but more complex.  Also requires a teardown/rebuild if added to an existing ERCF.<br />
+  <br />
+    
+  [return to index](#filamentalist-frequently-asked-questions)
 
 
 ## Rubber Band Sourcing Options
@@ -105,15 +106,15 @@
   - Amazon example: https://www.amazon.com/AIWOQI-Industrial-supplies-Survival-Tactical/dp/B0CZQ57TF6
   - Aliexpress example: https://www.aliexpress.us/item/3256803949130763.html
  
-<img src="https://github.com/SkiBikePrint/Filamentalist/blob/71cee20fe18fa942feb86cab2a580b9eeac974d1/Assets/rubber_band_82.jpg" width="300" height="350">
-
-
-[return to index](#filamentalist-frequently-asked-questions)
+<img src="https://github.com/SkiBikePrint/Filamentalist/blob/71cee20fe18fa942feb86cab2a580b9eeac974d1/Assets/rubber_band_82.jpg" width="300" height="350"><br />
+  <br />
+    
+  [return to index](#filamentalist-frequently-asked-questions)
 
 
 ### Flexible Filament
   - The Filamentalist has been successfully tested with 95A hardness TPU
-  - 85A hardness TPU (for example NinjaFlex) has been minimally tested and the Filamentalist would load/unload it.  I was unable to perform filament tool changes  within a print as the NinjaFlex was jamming in my extruder due to excessive extrusion rates.  I'll get back to testing this at some point with a slower extrusion rate for purging and printing.  If you have had success or failure with the Filamentalist using flexible materials softer than 95A please let me know.
-
-
-[return to index](#filamentalist-frequently-asked-questions)
+  - 85A hardness TPU (for example NinjaFlex) has been minimally tested and the Filamentalist would load/unload it.  I was unable to perform filament tool changes  within a print as the NinjaFlex was jamming in my extruder due to excessive extrusion rates.  I'll get back to testing this at some point with a slower extrusion rate for purging and printing.  If you have had success or failure with the Filamentalist using flexible materials softer than 95A please let me know.<br />
+  <br />
+    
+  [return to index](#filamentalist-frequently-asked-questions)
