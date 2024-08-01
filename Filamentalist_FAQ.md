@@ -39,10 +39,10 @@
   Box is available here:  https://www.printables.com/model/551828-unoriginal-prusa-drybox .  Delete the rollers and add your own Filamentalist mounting solution.  You may need the rear load option for the Filamentalist
 
   <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/UnOriginal%20Prusa%20DryBox.jpg" width="300" height="350">
-  (solution/picture courtesy of barsam on Discord)
-
-
-[return to index](#filamentalist-frequently-asked-questions)
+  (solution/picture courtesy of barsam on Discord)  
+    
+    
+  [return to index](#filamentalist-frequently-asked-questions)
 
 
 ## Gear Motor Options
