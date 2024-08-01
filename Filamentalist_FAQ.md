@@ -47,7 +47,7 @@
 
 ## Gear Motor Options
 
-  It is frequently asked if a NEMA 14 gear motor is strong enough to drive an MMU plus Filamentalist.  The 0.7A Moons NEMA 14 motor that came with my ERCF V1 Blurolls kit worked fine with the ERCF V1 and Filamentalist.  When I upgraded to ERCF V2 the additional resistance that came with the "Springy" version of the selector made the system slightly underpowered with a NEMA 14.  So if a NEMA 14 is what you currently have for your ERCF, TradRack, or other MMU, I suggest you try it before buying a higher torque motor.  If you are building a new MMU then a NEMA 17 recommended.  
+  It is frequently asked if a NEMA 14 gear motor is strong enough to drive an MMU plus Filamentalist.  The 0.8A Moons NEMA 14 motor that came with my ERCF V1 Blurolls kit worked fine with the ERCF V1 and Filamentalist.  When I upgraded to ERCF V2 the additional resistance that came with the "Springy" version of the selector made the system slightly underpowered with a NEMA 14.  So if a NEMA 14 is what you currently have for your ERCF, TradRack, or other MMU, I suggest you try it before buying a higher torque motor.  If you are building a new MMU then a NEMA 17 recommended.  
 
   For the ERCF Grafton's 40 tooth gear mod is also recommended ( https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction ). It allows you to use the same belt as is used with the baseline 80 tooth gear by providing a higher motor mount to take up the slack. Some ERCF kits come with a 42Ncm NEMA 17.  This combined with the 40T mod should give you sufficient torque to overcome MMU and long bowden tube resistance as well as allowing to run the Filamentalist at 300+mm/s speeds.  
 
