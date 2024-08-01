@@ -25,7 +25,7 @@
 - Width:  80mm Axle Version = 81.5mm, 100 mm Axle Version = 100mm<br />
   <br />
     
-  [return to index](#filamentalist-frequently-asked-questions)
+[return to index](#filamentalist-frequently-asked-questions)
 
 ## Enclosure Solutions
 
