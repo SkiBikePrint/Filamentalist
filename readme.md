@@ -42,7 +42,7 @@ Things that you need to know include:
    - Unit Width: 80mm, 100mm, and custom width via Fusion 360 parametric model
    - Mounting Style: Standard (shelf) mount, 2020 rail clip-in mount, 2020 clip-in mount for Filamentalist Enclosure
        - Based on your mounting needs, you may or may not need to print and install the Base Plate part.  It is really only needed if you don't plan to attach the rewinder to a surface.
-   - Feed Direction: The orientation of your MMU with respect to your filament spools location may require a font, rear, or bottom loading capability from the
+   - Feed Direction: The orientation of your MMU with respect to your filament spools location may require a front, rear, or bottom loading capability from the
        rewinder.  Tensioner Mount options are provided to support this.
    - Pre-gate Sensors: If your MMU does not have pre-gate sensors and the software you use supports them (like Happy Hare) there are Tensioner Mount options that  support this.
 3. A high torque NEMA 17 motor is recommended.  Many in the Beta team ran NEMA 17's spec'd at 55 N-cm max torque and config'd them for 1-1.5A.  Grafton's 40 tooth NEMA 17 mod is recommended (https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction).  This may not be required so if you already have built your ERCF, try the Filamentalist with the motor/gearing you have and decide if you think you need more torque/speed.
