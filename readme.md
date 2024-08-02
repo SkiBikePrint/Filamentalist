@@ -17,7 +17,7 @@
 
 ## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Theory of operation:
 
-The Filamentalist is an integrated solution for buffering and spool holding. This provides space savings as well as the potential for filament path reduction and the associated drag/resistance that comes with long runs from spool to buffer to MMU.
+The Filamentalist is an integrated solution for buffering and spool holding providing space savings as well as the potential for filament path reduction and the associated drag/resistance that comes with long runs from spool to buffer to MMU.
 
 - The Filamentalist uses the axial force delivered by the MMU gear motor along the filament to load and unload to and from the filament spool.
 - An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface for rotating the axle and filament spool.
