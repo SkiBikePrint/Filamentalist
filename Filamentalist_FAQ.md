@@ -15,7 +15,7 @@
 [7. TPU - Cant the Filamentalist handle soft/flexible materials?](#flexible-filament)
 
 ## Troubleshooting
-- If you have built the Filamentalist(s) and are having issues with its functioning such as loose loops or gear motor stalling please refer to this [Trouble Shooting Guide](https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/troubleshoot.md).  If this doesn't help to resolve your questions you can get help from the many great users at the Filamentalist Discord server here (https://discord.gg/uDcGxukRKd)
+- If you have built the Filamentalist(s) and are having issues with its functioning such as loose loops or gear motor stalling please refer to this [Trouble Shooting Guide](https://github.com/SkiBikePrint/Filamentalist/blob/main/troubleshoot.md).  If this doesn't help to resolve your questions you can get help from the many great users at the Filamentalist Discord server here (https://discord.gg/uDcGxukRKd)
 
 ## Dimensions Footprint
 - Length:  186mm
