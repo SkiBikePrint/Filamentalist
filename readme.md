@@ -4,38 +4,52 @@
 </p>
 <p align="center"><img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Front.jpg" width="350" height="300">
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Top.jpg" width="300" height="300">
-<img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Top.jpg" width="300" height="300">
-</p>
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_6_Color.jpg" width="350" height="300">
 </p>
 
-# [Filamentalist Enclosure Drybox Project Github](https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist_Enclosure)
+## Video of 6 rewinders swapping (plus SW Only Blobifier Purging):  [<img src="https://github.com/SkiBikePrint/Filamentalist/blob/7042b9b10466e7a60b45ed23568b3a78ff5930b9/Assets/Swap_Video.jpg" width="100" height="100">](https://photos.app.goo.gl/hKso7JYPZcdRLKrW8)
+
+
+## [Filamentalist Enclosure Drybox Project Github](https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist_Enclosure)
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/20240619_221414.jpg" width="350" height="300">
 </p>
 
 
-# See video of 6 rewinders swapping here (plus Trident Blobifier):  [Filamentalist X6](https://photos.app.goo.gl/hKso7JYPZcdRLKrW8)
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Theory of operation:
 
+The Filamentalist is an integrated solution for buffering and spool holding providing space savings as well as the potential for filament path reduction and the associated drag/resistance that comes with long runs from spool to buffer to MMU.
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Theory of operation:
-The Filamentalist uses the axial force delivered by the MMU gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch disengages allowing for effective free-spooling of the filament spool similar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface of the rewinder to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
+- The Filamentalist uses the axial force delivered by the MMU gear motor along the filament to load and unload to and from the filament spool.
+- An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface for rotating the axle and filament spool.
+- A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.
+- For loading and print extruding, the clutch disengages allowing for effective free-spooling of the filament spool similar to a roller style spool holder.
+- The difference in diameter of the filament driven clutched roller versus the larger roller that the filament spool sits on provides the needed gear ratio to produce enough rotations to take up, and unload a nearly empty or full filament roll.
+- During unloading/buffering, to account for the varying diameter of a spool from full to empty filament tension will cause the spring loaded arm to lift a small amount and release traction from the o-rings allowing slip to occur between the filament and the o-ring interface of the rewinder (full spool = max slip, empty spool = no/minimal slip).
+
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist6_1.jpg" width="400" height="465">
 </p>
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Credits:
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Credits:
 Discord user Thisiscam first made me aware of Muzi Xiaoyang's video of a filament driven rewinder (https://www.bilibili.com/video/BV1ZM41197fX/?spm_id_from=333.337.search-card.all.click).  Through a long collaboration with Thisiscam, a great Beta dev/test team, and many design iterations/improvements on the Muzi Xiaoyang design the Filamentalist was born. 
 
 ## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> **Additional Notes/Considerations** 
 
-This rewinder is "almost" perfect, but not completely perfect.  Things that you need to know include:
-1. The ERCF gear stepper is doing the heavy lifting.  Configure your gear stepper to run in sync mode with your extruder via Happy Hare settings.
-2. A high torque NEMA 17 motor is recommended.  Many in the Beta team ran NEMA 17's spec'd at 55 N-cm max torque and config'd them for 1-1.4A.  Grafton's 40 tooth NEMA 17 mod is recommended (https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction).  This may not be required so if you already have built your ERCF, try the Filamentalist with the motor you have and decide if you think you need more torque.
-3. Several in the Beta team had space constraints that they wanted the rewinder to honor.  As a result, one baseline width of the Filamentalist was set to use a 80mm axle length.  It has a maximum spool width of 68mm and supports most standard 1, 0.5, and 0.25KG spool sizes and still be able to fit 6 rewinders across a 350 size Voron printer. Height was set to be as low as possible to fit some existing dry box designs although there is the possibility to make user modifications to to reduce height further if needed. Some spools such as KVP's are too wide to fit the 80mm design.  If you use spools wider than 68mm there is also stl files posted for a 100mm axle length version. If you are using Autodesk Fusion 360 the provided .f3d file in the CAD directory is a parametric based model allowing you to customize the width of your rewinder to suit your max/min spool widths and/or to design around a standard available steel axle length (see instructions here  [parametric_model](https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/CAD/readme.md) ). 
-4. Because the standard tuning of this design relies on some filament slip at the o-rings, the o-rings may ultimately wear-out.  Testing and extrapolation estimates that the wear-out point is ~5K cycles. See the O-Ring Replacement section at the end of this document for o-ring swap/replacement instructions. 
-5. Due to pressfits for the 608 bearings, 8mm axle, and ECAS, printer calibration is important.  A "Test Block" stl is included.  It is recommended you print this first and test the press fits and measure the two small holes (2.7mm for cutting 3mm screw threads and 2.3mm for the filament path) to determine if you need to apply any scaling or changes to your extrusion factors in your slicer before printing.  Due to varying ECAS supplier tolerances and varying printer tolerances some experienced cracking at the ECAS hole when pressing in the ECAS.  If all other press fits work well on the Test Block but you experience cracking at the ECAS hole when pressing in an ECAS fitting, you can use an Xacto knife to lightly remove some plastic from the ECAS hole.  If the ECAS is too loose you can use superglue to glue the ECAS into the Tensioner Mount (not the Test Block 😉 ).
-6. Questions or input?
+Things that you need to know include:
+1. Due to continual evolution of the design based on user feedback, the pictures in this guide may not reflect the most current design.  They will be similar and generally represent the latest parts and assemblies .  The part names in the Printing Guidelines below will be kept current to match the CAD/STL files.
+2. There are multiple options for the Filamentalist.  Determine which versions/options you want and select the stl's to print accordingly.
+   - Unit Width: 80mm, 100mm, and custom width via Fusion 360 parametric model
+   - Mounting Style: Standard (shelf) mount, 2020 rail clip-in mount, 2020 clip-in mount for Filamentalist Enclosure
+       - Based on your mounting needs, you may or may not need to print and install the Base Plate part.  It is really only needed if you don't plan to attach the rewinder to a surface.
+   - Feed Direction: The orientation of your MMU with respect to your filament spools location may require a front, rear, or bottom loading capability from the
+       rewinder.  Tensioner Mount options are provided to support this.
+   - Pre-gate Sensors: If your MMU does not have pre-gate sensors and the software you use supports them (like Happy Hare) there are Tensioner Mount options that  support this.
+3. A high torque NEMA 17 motor is recommended.  Many in the Beta team ran NEMA 17's spec'd at 55 N-cm max torque and config'd them for 1-1.5A.  Grafton's 40 tooth NEMA 17 mod is recommended (https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction).  This may not be required so if you already have built your ERCF, try the Filamentalist with the motor/gearing you have and decide if you think you need more torque/speed.
+4. Several in the Beta team had space constraints that they wanted the rewinder to honor.  As a result, one baseline width of the Filamentalist was set to use a 80mm axle length.  It has a maximum spool width of 68mm and supports most standard 1, 0.5, and 0.25KG spool sizes and still be able to fit 6 rewinders across the top of a 350 size Voron printer. Height was set to be as low as possible to fit some existing dry box designs although there is the possibility to make user modifications to to reduce height further if needed. Some spools such as NinjaFlexand KVP's are too wide to fit the 80mm design.  If you use spools wider than 68mm there is also step and stl files posted for a 100mm axle length version. If you are using Autodesk Fusion 360 the provided .f3d file in the CAD directory is a parametric based model allowing you to customize the width of your rewinder to suit your max/min spool widths and/or to design around a standard available steel axle length (see instructions here  [parametric_model](https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/CAD/readme.md) ). 
+5. Because the standard tuning of this design relies on some filament slip at the o-rings, the o-rings may ultimately wear-out.  Testing and extrapolation estimates that the wear-out point is ~5K cycles. See the O-Ring Replacement section at the end of this document for o-ring swap/replacement instructions. 
+6. Due to pressfits for the 608 bearings and ECAS fitting printer calibration is important.  A "Test Block" stl is included.  It is recommended you print this first and test the press fits and measure the two small holes (2.7mm for cutting 3mm screw threads and 2.3mm for the filament path) to determine if you need to apply any scaling or changes to your extrusion factors in your slicer before printing.  Due to varying ECAS supplier tolerances and varying printer tolerances some experienced cracking at the ECAS hole when pressing in the ECAS.  If all other press fits work well on the Test Block but you experience cracking at the ECAS hole when pressing in an ECAS fitting, you can use an Xacto knife to lightly remove some plastic from the ECAS hole.  If the ECAS is too loose you can use superglue to glue the ECAS into the Tensioner Mount (not the Test Block 😉 ).
+7. Questions or input?
    - Refer to the FAQ (https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Filamentalist_FAQ.md)
    - Troubleshooting Guide (https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/troubleshoot.md)
    - Filamentalist Discord group here:  (https://discord.gg/uDcGxukRKd)
@@ -46,21 +60,29 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 | Qty per Site | Part | Example Source Reference | Comments |
 |-------|---------------------------|-----------------------------|-------------------------------|
 |   1   | 8mm dia. x 80mm Stainless Steel Dowell Pin | https://www.amazon.com/uxcell-Stainless-Chamfered-Support-Elements/dp/B0BC8VFSWD, Amazon Alternate https://www.amazon.com/Unifizz-Stainless-Steel-Round-Silver/dp/B09P9MC953?th=1 (sheared ends may need to be cleaned up), Aliexpress https://www.aliexpress.us/item/3256801518620991.html | Undersized shaft (7.93-7.97mm or 5/16" dia) works the best.  100mm length is more available and can extend out of rewinder, you can cut polished 8mm or 5/16" diameter stainless rod to length, or there are stls to make a wider rewinder based on a 100mm axle.  Custom rewinder widths are also possible using the Fusion 360 parametric model and you can cut shaft to whatever length is desired. 8mm (or 5/16") diameter straight stainless tube is also an excellent alternative to solid rods as the are much easier to cut to length. |
-|   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  | MR608RS, MR608ZZ, etc. |
-|   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS, Aliexpress | 8mm Bore, 12mm length, 14.2mm Diameter. Get the "hex" style. |
+|   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  | MR608-2RS style recommended, but open or  MR608-ZZ style will work |
+|   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS, Aliexpress | 8mm Bore, 12mm length, 14.2mm Diameter. Get the "octogonal" style. |
 |   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | A locking clip is required and can be bought or printed (stl included) |
-|   2   | O-rings | AS568 Standard size 211, Home Depot #110, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | In the range of 13/16" ID, 1-1/16" OD or ~20mm ID, ~26mm OD (~3mm cross section/cs), Nitrile Butadiene Rubber (Buna-N)|
-|   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/, Aliexpress | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
+|   2   | O-rings | AS568 Standard size 211, Home Depot #110, Amazon example: https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress example: https://www.aliexpress.us/item/2255799953260685.html (select correct size) | In the range of 13/16" ID, 1-1/16" OD or ~20mm ID, ~27mm OD (~3.5mm cross section/cs), Nitrile Butadiene Rubber (NBR or Buna-N)|
+|   1   | Spring  | https://www.amazon.com/dp/B076LNJF5Q, Aliexpress | Like in extruders - 304 Stainless Steel,6mm OD,0.6mm Wire Size,7.5mm Compressed Length,15mm Free Length (the stiffer 1mm wire size extruder spring used on CW2 and G2E will also work if you have those on-hand) |                                 |
 |   1 | 3mm Heatset Insert | M3x4x5 like these:  https://www.amazon.com/gp/product/B09MCW7ZN5 | Voron standard size | set into the Tensioner Mnt |
 |   1   | 3x35mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw anything in the range of 35mm +/- 10mm should work.  If building the alernate reverse access version then a 40-50mm length is recommended. |
-|   2   | M3x8 SHCS  |  Stainless Steel Socket Head Screw | for locking rim rollers to 8mm steel axle shaft|
+|  2-6  | M3x8 SHCS  |  Stainless Steel Socket Head Screw | for locking rim rollers to 8mm steel axle shaft.  1 to 3 screws per roller Depending on tightness/looseness of Rim Roller center bore |
 |   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation 8/10/12mm lengths will work|
 |   3   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation 16mm length will work |
-|   2   | Rubber Band | https://www.amazon.com/dp/B0CPJPN41V , Aliexpress https://www.aliexpress.us/item/3256804772787208.html (120x20mm) | Size #94 (3 1/2" x 3/4"), any wide rubber bands in the 2.5"-3.5" size will work.  Can combine multiples across face of rollers.  Another excellent alternative is to cut bands from a bicycle inner tube.  Mountain bike or "balloon" tire sized tubes for tires in the 1.75"-2.4" width work well.  Cut at ~30-35% wider than face of Rim Roller. |
+|   2   | Rubber Band | See [FAQ](Filamentalist_FAQ.md) | bike tire inner tube or rubber bands |
+
+**Optional Parts**
+| Qty per Site | Part | Example Source Reference | Comments |
+|-------|---------------------------|-----------------------------|-------------------------------|
+|   3   | D2F-L3 Microswitch  | Omron brand - Mouser, Digikey, etc., Aliexpress example: https://www.aliexpress.us/item/3256805036222979.html  | for pre-gate sensor option versions |
+|   2   | M2x10 Self Tapping Screw | Philips or socket head.  Amazon example: https://www.amazon.com/DTGN-M2x10mm-Phillips-Self-tapping-Screw/dp/B0CSRTYBLR, Aliexpress example: https://www.aliexpress.us/item/3256802486141312.html (select size) | for pre-gate sensor option versions |
+|   1   | JST-XH 2-pin Socket/Plug | Amazon example:  https://www.amazon.com/CQRobot-Connector-Terminals-Housing-Adapter/dp/B0B2R966ZY, Aliexpress Example: https://www.aliexpress.us/item/3256804799083128.html (need housing, plug, and terminal) | for pre-gate sensor option versions |
+|   var.   | 24 awg wire  |   | for pre-gate sensor option versions |
 | var.  | 2.5mm ID PTFE tubing | Amazon, Aliexpress, 3D printing vendors | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your rewinder location to your ERCF inputs |
 
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Printing Guidelines:
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Printing Guidelines:
 
 ## **General:**
 - Material: ABS or ASA (~170 gm per site)
@@ -80,7 +102,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 - Stl's are provided for optional clip-in style supports where no Base_Plate is needed and the rewinders are easily clipped in and out of (2) 2020 extrusions mounted 170mm center-to-center apart.  This option is highly recommeded if your setup can accomodate this style type of mount.
   
   <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/ba96384b23351f8518af1fe28bfbe48044499fa8/Recommended_Options/Filamentalist_Rewinder/Assets/Clip-In_Supports.jpg" width="250" height="175">
-- **!! IMPORTANT !!  This design relies on multiple press-fits for bearings, axles, and ECAS fittings.  As a result, printer calibration is important.  A Test_Block stl is included.  It is highly recommended that you print this block first, check fits, and make adjustments to extrusion multipliers and/or slicer scaling if needed before printing the Filamentalist parts.**
+- **!! IMPORTANT !!  This design relies on multiple press-fits for bearings and ECAS fittings.  As a result, printer calibration is important.  A Test_Block stl is included.  It is highly recommended that you print this block first, check fits, and make adjustments to extrusion multipliers and/or slicer scaling if needed before printing the Filamentalist parts.**
   
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Logo.png" width="200" height="300">  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Sliced_(Black)_1.jpg" width="375" height="300">  <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Sliced_(Orange)_1.jpg" width="375" height="300">
 
@@ -107,9 +129,9 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 | 1 | Test_Block | <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Test_Block.jpg" width="40" height="40"> |  608 Pocket facing up | N | printer calibration tool |
 
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Assembly Instructions:
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Assembly Instructions:
 
-# 1. Tensioner Mount Assembly
+## 1. Tensioner Mount Assembly
 
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Tensioner_Mnt.jpg" width="400" height="350">
 
@@ -117,11 +139,11 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
    - 1.2 Remove the rubber seal from the ECAS fitting.
    - 1.3 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using the end of a 8mm steel shaft or printed rear axle shaft to get it to sit flush to the Tensioner Mnt mating surface.  The sidewalls of this hole are relatively thin.  Varying ECAS and print tolerances could result in the sidewall cracking.  If this happens, use superglue around the ECAS and crack.
 
-# 2. Tensioner Arm Installation
+## 2. Tensioner Arm Installation
 
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Tensioner_Assy.jpg" width="400" height="350">
 
-   - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into the 608 bearing and rotate against the Tensioner Arm Right part making sure the alignment tab seats correctly at into the pocket at the bottom of the Tensioner Arm Right part.
+   - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into the 608 bearing and rotate against the Tensioner Arm Right part making sure the alignment tab seats correctly into the pocket at the bottom of the Tensioner Arm Right part.
    - 2.2 Place a 3x18 FHCS (or x16, x12) through the bearing mount hole of the Tensioner Arm Left part and moderately tighten the screw into the Tensioner Arm right piece.  Once installed verify that the bearing turns freely.
    - 2.3 Place a 3x18 FHCS (or x16, x12) through the hole in the Tensioner Arm Left part at the "nose" end and moderately tighten the screw into the Tensioner Arm right piece.  
    - 2.4 Install the Tensioner Arm onto the Tensioner Mnt using a 3x18mm FHCS screw (or x16) .  Tighten until snug and then back off until the arm rotates freely on the mount.
@@ -130,7 +152,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 
        <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/d422277f00883d8e07eb964bd4cc063f579f5f2b/Recommended_Options/Filamentalist_Rewinder/Assets/Tensioner_Screw_(alternate).jpg" width="300" height="200"> 
 
-# 3. Drive Roller Assembly
+## 3. Drive Roller Assembly
 
 <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Center_Drive_Roller_with_1-Way_Bearing.jpg" width="250" height="250">  <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/0148b717b17bc58e67fd7820ecf67a823742677a/Recommended_Options/Filamentalist_Rewinder/Assets/Drive_Roller_Assembly_1.jpg" width="750" height="400">
 
@@ -141,7 +163,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 - 3.5 Install the second Rim Roller onto the 8mm steel axle with dished side facing outward as shown in picture above.  Use the Axle_Depth_Tool to aid with getting the Rim Roller set at the correct distance from the end of the axle.  Use a ball end hex driver to tighten the M3x8mm SHCS against the steel axle shaft.  Only medium force is required as to not strip the plastic threads.
 - 3.6 It is very important that the one-way bearing rotates in the unlocked direction freely with low resistance .  If the resistance of the one-way bearing is greater than the combined rolling resistance of the rest of the rewinder the one-way bearing will not disengage and freespool properly during filament loads resulting in loose coils on the spool.  There has been limited instances of certain one-way bearings having too much resistance.  If your one-way bearings don't spin freely in the unlocked direction then assess your shaft diameter to ensure it is not too much above 8mm and/or you may need to try a different brand of one-way bearing (5/16" or 7.2-7.6mm diameter is optimal).
 
-# 4. Base Assembly
+## 4. Base Assembly
 
 There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 base Supports that use the clip mount version (see "[2020 Clip-In_option]" versions in STLs directory).  Assembly is the same.
 
@@ -156,29 +178,29 @@ Also, there is an optional "Base_Plate" part that mounts to the Supports and Ten
 <img src="https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/ba96384b23351f8518af1fe28bfbe48044499fa8/Recommended_Options/Filamentalist_Rewinder/Assets/Base_Assy_2.jpg" width="500" height="350">
 
    - 4.2 Place the Tensioner Assembly around the Drive Roller Assembly and screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws (or x10, x8).
-## **Double Check that the one-way bearing of the Center Drive Roller locks when rotated in the direction of a filament unload (if using the Tensioner Mount Rear Load option then the one-way bearing must be reversed and operate/lock in the counter clockwise direction with respect to the picture above).**
+### **Double Check that the one-way bearing of the Center Drive Roller locks when rotated in the direction of a filament unload (if using the Tensioner Mount Rear Load option then the one-way bearing must be reversed and operate/lock in the counter clockwise direction with respect to the picture above).**
    - 4.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket of the Support.  Ensure it presses all of the way in (you may need to tap it in a bit).  Secure with (1) 3x18 FHCS screw (or x10, x8).  
    - 4.4 Slide the Rear Roller onto the Rear Roller Axle.
    - 4.5 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws (or x10, x8).  Make sure there is no spring tension on the Tensioner arm for this step.
    - 4.6 Insert a section of bowden tube into the ECAS until it bottoms out/butts against the Tensioner Mnt behind the ECAS.  Place a locking clip in the ECAS (if you don't have these, an stl file is provided to print the locking clips).  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  Cut your section of tubing a little long for the location of the rewinder and the run to the ERCF slot position.  You can fine tune/trim the length after installation of the rewinder.  
-## **It is recommended that you chamfer the inner edge of the tubing that is going into the Tensioner Mount with an Xacto knife or drill bit to ensure easy filament loading.  Also, depending on print quality you may want/need to clean up the filament path hole in the Tensioner Mount by hand turning a 1.75-2mm drill bit and the bowden tubing hole with a 4mm drill bit.**
+### **It is recommended that you chamfer the inner edge of the tubing that is going into the Tensioner Mount with an Xacto knife or drill bit to ensure easy filament loading.  Also, depending on print quality you may want/need to clean up the filament path hole in the Tensioner Mount by hand turning a 1.75-2mm drill bit and the bowden tubing hole with a 4mm drill bit.**
 
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Tuning
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Tuning
 
-The standard recommended method for tuning the system is with the Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs rewinder drag and set a slip range in-between the two "imaginary" lines.  Adjust the spring tensioner screw accordingly and err on the light side.  Run the rewinder (see test code below). If loose filament is forming around the filament spool during unload, tighten the spring tensioning screw.  If no loose filament is forming around the filament roll, gradually reduce the spring tension until loose filament starts to accumulate and then increase tension in ~1/2 screw turn increments until you feel you have the lightest tension that results in a tightly packed unload. 
+Tune by setting the Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs rewinder drag and set a slip range in-between the two "imaginary" lines.  Adjust the spring tensioner screw accordingly and err on the light side.  Run the rewinder (see test code below). If loose filament is forming around the filament spool during unload, tighten the spring tensioning screw.  If no loose filament is forming around the filament roll, gradually reduce the spring tension until loose filament starts to accumulate and then increase tension in ~1/2 screw turn increments until you feel you have the lightest tension that results in a tightly packed unload. 
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> O-Ring Replacement
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> O-Ring Replacement
 
 You may never need to replace o-rings.  Testing and extrapolation estimates that the wear-out point is ~5K cycles.  The impact of o-ring wear-out can be reduced by periodically swapping highly used rewinders with low use rewinders in your line-up.  Also, o-rings with grooves worn in them can be swapped with their opposing partners to present the unworn side/face to the filament to extend the life of a set.  For o-ring replacement, remove the Drive Roller Assembly from the rewinder (unscrew the (6) screws of the Right and Left Supports).  Then unscrew the set screw on one Rim Roller.  You can now slide the CDR Spacer and Center Drive Roller from the axle, remove the old o-rings (a dental pic works great), and install a pair of new ones.  Reinstall the Center Drive Roller and CDR Spacer back on the axle and install the Rim Roller back onto the axle per 3.3 above, and re-install the supports.  
 
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Troubleshooting
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Troubleshooting
 
 Please see [troubleshooting guide](troubleshoot.md), reference the [FAQ](Filamentalist_FAQ.md), or join our discord server (https://discord.gg/uDcGxukRKd) for more help.
 
 
-# <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Testing
+## <img src="https://github.com/SkiBikePrint/Filamentalist/blob/9d7a90dc3dec40c67051558c80c616155eb8eba8/Assets/Filamentalist_Brain_Logo.png" width="50" height="60"> Testing
 
 Below are macros you can cut and paste into the bottom of your mmu_software.cfg or printer.cfg to test and tune your rewinders.
 
