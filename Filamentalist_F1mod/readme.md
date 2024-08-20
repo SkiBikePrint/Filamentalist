@@ -1,4 +1,4 @@
-forked from (https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist)
+forked from (https://github.com/SkiBikePrint/Filamentalist)
 
 # BOM
 
